@@ -1,0 +1,38 @@
+a variable can have only four types of values->->
+1) number
+2)string
+3)boolean
+4)undefined
+5)null
+
+
+
+REFRENCE TYPE->->
+1)Array
+2)Function
+3)object
+
+
+
+SYMBOL->->
+they are used to represent unique values that can be used 
+
+
+JAVA SCRIPT OPERATORS->->
+
+1)Arithematic 
+   -addition;
+   -multiplication
+   -divident
+   -modulus
+2)Comparison
+
+{IMP}
+'='   operator is used to assign a value to a variable
+'=='  operator is used to compare the value between the variables irrespective of the data type
+'==='  operatir is used to compare the values by using strict type with data types is checked
+
+
+3)Assignment operator   
+
+ASSIGNMENT("Maximum of three numbers);
