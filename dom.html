@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Ecommerce Site</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1 id="demo">My website</h1>
+     <button onclusive= "onclick ()">on mouse</button>
+     <button inclusive= "inclick ()">in mouse</button>
+     <button onmouse = "upclick ()">up mouse</button>
+     <button></button>
+     <script src="/dom.js"></script>
+    <!-- <header>
+        <div class="container">
+            <div class="logo">ShopEase</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <input type="text" placeholder="Search products..." class="search-bar">
+                <div class="cart">Cart (0)</div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Featured Products</h1>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://imgs.search.brave.com/aMQyEKA_bTeBIottAU-Ez-xcQoQYAlcHk6SPPeBbbCw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE2/MTMwNDA4MDkwMjQt/YjRlZjdiYTk5YmMz/P2ZtPWpwZyZxPTYw/Jnc9MzAwMCZpeGxp/Yj1yYi00LjEuMCZp/eGlkPU0zd3hNakEz/ZkRCOE1IeHpaV0Z5/WTJoOE4zeDhhR1Zo/WkhCb2IyNWxjM3hs/Ym53d2ZId3dmSHg4/TUE9PQ" alt="Product 1">
+                    <h3>Wireless Headphones</h3>
+                    <p>&#8377; 499.99</p>
+                    <button>Add to Cart</button>
+                    <br>
+                    <a href="viewmore1.html" class="viewmore">VIEWMORE</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://imgs.search.brave.com/TLrPWrmTL8_uo66YABi-87kPmpfJVJ5sBAbe2VEzsGM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFZbVVqcFVvT0wu/anBn" alt="Product 2">
+                    <h3>Smartphone Case</h3>
+                    <p>&#8377; 1999.99</p>
+                    <button>Add to Cart</button>
+                    <br>
+                    <a href="viewmore2.html" class="viewmore">VIEWMORE</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://imgs.search.brave.com/SvJqIYR9yikspAD82Prl1TgEQHsksJhU2-GoLEZoWvk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFqa1lhUFo2a0wu/anBn" alt="Product 3">
+                    <h3>Laptop Stand</h3>
+                    <p>&#8377; 299.99</p>
+                    <button>Add to Cart</button>
+                    <br>
+                    <a href="viewmore3.html" class="viewmore">VIEWMORE</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://imgs.search.brave.com/hg_HgQkO-jU43vwicj0A9dxAdMqS9ePDLlaLZSlKrh0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzE0LzcwLzIxLzg4/LzM2MF9GXzE0NzAy/MTg4ODZfcnJHd0Rm/M3NQcEtiUkdydmNQ/ZHRjVmZkeFR5aVZL/WlIuanBn" alt="Product 4">
+                    <h3>Bluetooth Speaker</h3>
+                    <p> &#8377;399.99</p>
+                    <button>Add to Cart</button>
+                    <br>
+                    <a href="viewmore4.html" class="viewmore">VIEWMORE</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://imgs.search.brave.com/gQyqLacvnv-sjD1sOOYbAK53Zs2mSUwLQ_B9vd1Vf8o/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA0Lzc1LzQ3LzAw/LzM2MF9GXzQ3NTQ3/MDA0OF9LY1FWQVdN/MWlVRkoxdGxYVGQ1/dFB2QTFXUXFRbXVR/Ty5qcGc" alt="Product 5">
+                    <h3>USB Cable</h3>
+                    <p> &#8377;999.99</p>
+                    <button>Add to Cart</button>
+                    <br>
+                    <a href="viewmore5.html" class="viewmore">VIEWMORE</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://imgs.search.brave.com/u4p1cZldqMukCgJND4TFxFyMbls4p7qk3ucunorY3mE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9ydWtt/aW5pbTIuZmxpeGNh/cnQuY29tL2ltYWdl/LzMwMC8zMDAveGlm/MHEvbW91c2VwYWQv/OC96L2MvYmxhY2st/Y29sb3ItZ2FtaW5n/LWFudGktc2xpcC1i/YXNlLWhpZ2gtZHVy/YWJpbGl0eS1tb3Vz/ZS1wYWQtcnNzaC1v/cmlnaW5hbC1pbWFo/YjNwenJ6ZjNoZnp5/LmpwZWc_cT05MA" alt="Product 6">
+                    <h3>Mouse Pad</h3>
+                    <p>&#x20B9;1498.99</p>
+                    <button>Add to Cart</button>
+                    <br>
+                    <a href="viewmore6.html" class="viewmore">VIEWMORE</a>
+                </div>
+                 <div class="product-card">
+                    <img src="https://imgs.search.brave.com/fBGwUzR6UCfBx4u3PNe-tBw1nKCMhiRTT8ntfk74p1U/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLmRl/bGwuY29tL2lzL2lt/YWdlL0RlbGxDb250/ZW50L2NvbnRlbnQv/ZGFtL3NzMi9wcm9k/dWN0LWltYWdlcy9w/ZXJpcGhlcmFscy9v/dXRwdXQtZGV2aWNl/cy9kZWxsL3NucC1j/YXRlZ29yeS1pbWFn/ZXJ5L2tleWJvYXJk/LW1vdXNlL2RlbGwt/c25wLWtiNzQwLWti/bS0wMS1neS5wbmc_/Zm10PXBuZy1hbHBo/YSZ3aWQ9ODAwJmhl/aT02MjA" alt="Product 6">
+                    <h3>Keyboard</h3>
+                    <p>&#x20B9;1499.99</p>
+                    <button>Add to Cart</button>
+                    <br>
+                    <a href="viewmore6.html" class="viewmore">VIEWMORE</a>
+                </div>
+                 <div class="product-card">
+                    <img src="https://imgs.search.brave.com/t8pCDyLaAqJJCQAmx1ZRPxlLtua6ywQL8BDcrJs4kEE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/Y3JlYXRlLnZpc3Rh/LmNvbS9hcGkvbWVk/aWEvc21hbGwvMzgx/NTA3OTA0L3N0b2Nr/LXBob3RvLXBhaXIt/c29mdC1zbGlwcGVy/cy1mbHVmZnktcnVn" alt poduct 6">
+                    <h3>Slippers</h3>
+                    <p>&#x20B9;1399.99</p>
+                    <button>Add to Cart</button>
+                    <br>
+                    <a href="viewmore6.html" class="viewmore">VIEWMORE</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>Email: support@shopease.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                </div>
+            </div>
+            
+            <p>&copy; 2025 ShopEase. All rights reserved.</p>
+            <br>
+            <p> NAMAN VAISH </p>
+        </div>
+    </footer> -->
+</body>
+</html>

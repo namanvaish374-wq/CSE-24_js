@@ -36,3 +36,54 @@ JAVA SCRIPT OPERATORS->->
 3)Assignment operator   
 
 ASSIGNMENT("Maximum of three numbers);
+
+
+
+
+
+
+
+
+
+
+
+
+
+____________________________________________________________________________________________________________________-
+
+Arrow function os an anonymous function (which has no name)
+
+//object =======
+____________________
+object is represented by the help of curly brackets ;;
+let x={};
+
+var person2=new Object();
+person2.name="NAMAN" //to add person name;
+person2.age=32;
+person.isMarried=true;
+person2.address = {};
+person2.address.street="nagar road";
+person2['address']['Flat No']=33;
+
+ -----------------------------------------------------
+ Array
+ ------
+ //
+
+
+
+ form events -----
+
+ // on focus 
+ // on submit
+ // on blurr
+ // on change 
+
+ window events ------
+
+ // on load
+ // on resize 
+ 
+
+
